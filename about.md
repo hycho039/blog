@@ -1,5 +1,5 @@
 ---
-layout: pdf
+layout: pdf2
 title: About
 permalink: /about/
 ---
