@@ -4,6 +4,10 @@ layout: default
 
 {% highlight html %}
 {% raw %}
+
+
+<h2>{{ page.title }}</h2>
+<div class="pdf">
 <!DOCTYPE html>
 <html>
   {% include head.html %}
@@ -11,5 +15,8 @@ layout: default
     {{ content }}
   </body>
 </html>
+</div>
+
+
 {% endraw %}
 {% endhighlight %}
